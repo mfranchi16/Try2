@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<!--
+    Cadet Website
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Det 195</title>
+	<link rel="shortcut icon" href="Images/logo.png" >
+	<link rel="stylesheet" href="det.css" />
+	<script src="myLogin.js"></script>
+	<link rel="stylesheet" href="log.css" />
+</head>
+<body>
+	<div id="cl">
+		<a href="cadetLogin.html" style="font-size: 15px; color: white; float: right; padding-right: 50px; padding-top: 15px;" >Cadet Login</a>
+	</div>
+	<img src="Images/logo.png" height="100px" width="100px" style="padding-left: 200px; vertical-align: middle; padding-right: 20px; padding-top: 20px; padding-bottom: 20px;" /><span>Detachment 195</span>
+	<ul>
+		<li id="special"><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="admission.html">Admission</a></li>
+		<li><a href="activites.html">Activities</a></li>
+		<li><a href="nsop.html">NSOP Info</a></li>
+		<li><a href="grads.html">Recent Grads</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+	<p>&nbsp;</p>
+	<div id="main">
+		<h2 id="cad">Cadet Login</h2>
+		<p>&nbsp;</p>
+		<p id="in">If you do not have correct login information or need login information, then you should contact your flight commander.</p>
+		<p>&nbsp;</p>
+		<form id="in" action="login.php" method="post">
+			Username: <input class="enter" type="text" name="user" placeholder="Username" /><br><br>
+			Password: <input class="enter" type="text" name="pass" placeholder="Password" /><br><br>
+			<input id="btn" onclick="login()" type="submit" name="submit" value="Login" />	
+		</form>
+	</div>
+</body>
+<footer>
+	<p>&nbsp;</p>
+	<a id="pri" href="privacy.html">Privacy and Security Notice</a>
+	<p>&nbsp;</p>
+</footer>
+</html>
